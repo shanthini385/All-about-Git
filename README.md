@@ -1,6 +1,10 @@
 # All-about-Git
 =========================
 
+## Installing Git
+
+To install Git on Debian-based systems, use the following command:
+```
 sha@Shanthinid:~$ sudo apt-get install git
 Reading package lists... Done
 Building dependency tree... Done
@@ -21,6 +25,10 @@ Unpacking git (1:2.39.5-0+deb12u2) ...
 Setting up git (1:2.39.5-0+deb12u2) ...
 sha@Shanthinid:~$
 sha@Shanthinid:~$
+```
+After installing Git, set up your username and email (this will be linked to all commits).
+
+```
 sha@Shanthinid:~$ git --version
 git version 2.39.5
 sha@Shanthinid:~$ git config --global user.name "Shanthini"
@@ -29,3 +37,4 @@ sha@Shanthinid:~$ git config --list
 user.name=Shanthini
 user.email=s10031996@gmail.com
 sha@Shanthinid:~$
+```
